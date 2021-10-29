@@ -1,0 +1,87 @@
+html {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-image: url("./images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
+  h1, h2, h3, p {
+    text-align: center;
+  }
+  p {
+    font-size: 2rem;
+    color: #9fabb2;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 3.75rem;
+  }
+  img, button, a {
+    display: block;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.company {
+  margin-top: 12rem;
+  margin-bottom: 12rem;
+  width: 24rem;
+  height: auto;
+}
+
+.logo {
+  height: auto;
+  margin-top: 24rem;
+  margin-bottom: 10rem;
+  width: 22rem;
+  height: auto;
+}
+
+.icon {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  width: 8rem;
+  height: auto;
+}
+
+h1, h2, h3 {
+  color: #4c545d;
+}
+
+button {
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 3.25rem;
+  height: 10rem;
+  width: 58rem;
+  border-radius: 8rem;
+}
+
+.green {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.blue {
+  background-color: hsl(233, 100%, 69%);
+}
